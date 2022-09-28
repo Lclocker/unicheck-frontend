@@ -10,7 +10,7 @@ const Menu = () => {
     'TURMAS', 
     'ESTUDANTES',
     'PROFESSORES',
-  ]
+  ];
 
   return (
     <div 
@@ -33,7 +33,6 @@ const Menu = () => {
                 width: '300px', 
                 border: '2px solid blue',
                 borderRadius: '5px', 
-                marginBottom: '20px',
                 fontSize: '18px',
                 cursor: 'pointer',
               }}
@@ -41,9 +40,9 @@ const Menu = () => {
                 if(item === 'TURMAS'){
                   navigate('/schoolClass');
                 } else if (item === 'ESTUDANTES') {
-                  navigate('/schoolClass');
+                  navigate('/students');
                 } else {
-                  navigate('/schoolClass');
+                  navigate('/professors');
                 }
               }}
             >

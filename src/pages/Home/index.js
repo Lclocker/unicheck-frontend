@@ -26,7 +26,6 @@ const Home = () => {
                 width: '300px', 
                 border: '2px solid blue',
                 borderRadius: '5px', 
-                marginBottom: '20px',
                 fontSize: '18px',
                 cursor: 'pointer',
               }}
